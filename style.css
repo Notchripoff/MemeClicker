@@ -1,0 +1,49 @@
+/* width */
+::-webkit-scrollbar {
+	width: 10px;
+	height: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+	background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+	background: rgb(78, 78, 78);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+	background: rgb(54, 54, 54);
+}
+
+body {
+	background-color: rgb(179, 179, 179) !important;
+	font-family: 'Comic Sans MS' !important;
+	user-select: none;
+}
+
+#home, #profile, #contact {
+	overflow: auto;
+}
+
+.myProgress {
+	width: 95%;
+	background-color: gainsboro;
+}
+
+.myBar {
+	width: 0%;
+	height: 35px;
+	background-color: rgb(0, 216, 0);
+	font-weight: bold;
+	font-size: 25px;
+	white-space: nowrap;
+}
+
+.meme-icon {
+	cursor: pointer;
+	padding-right: 10px;
+}
